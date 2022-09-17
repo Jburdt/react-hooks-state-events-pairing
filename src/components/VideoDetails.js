@@ -26,7 +26,7 @@ const VideoDetails = () => {
     return(
         <>
             <h2>{video.title}</h2>
-                <p>{video.views} | Upoladed {video.createdAt}</p>
+                <p>{video.views} | Uploaded {video.createdAt}</p>
                     <button onClick = {handleLikes}> {likes}👍</button>
                     <button onClick={handleDownLikes}> {downLikes}👎</button>
                     <p><button onClick={handleHiddenComments} >{text} Comments</button></p>
